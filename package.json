@@ -2,6 +2,7 @@
   "name": "cva-components",
   "version": "0.0.1",
   "description": "Class Variance Authority Components",
+  "license": "MIT",
   "keywords": [
     "Class Variance Authority",
     "class-variance-authority",
@@ -17,5 +18,25 @@
   "homepage": "https://github.com/gui-marc/cva-components#readme",
   "bugs": "https://github.com/gui-marc/cva-components/isues",
   "repository": "https://github.com/gui-marc/cva-components.git",
-  "author": "Guilherme Marcondes (https://xpto.com)"
+  "author": "Guilherme Marcondes (https://gui-marc.com)",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "@types/react": "^18.0.29",
+    "@types/react-dom": "^18.0.11",
+    "cva": "^0.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tsup": "^6.7.0",
+    "typescript": "^4.9"
+  }
 }
