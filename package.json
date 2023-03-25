@@ -1,0 +1,21 @@
+{
+  "name": "cva-components",
+  "version": "0.0.1",
+  "description": "Class Variance Authority Components",
+  "keywords": [
+    "Class Variance Authority",
+    "class-variance-authority",
+    "classes",
+    "classname",
+    "css",
+    "cva",
+    "stitches",
+    "vanilla-extract",
+    "variants",
+    "styled-components"
+  ],
+  "homepage": "https://github.com/gui-marc/cva-components#readme",
+  "bugs": "https://github.com/gui-marc/cva-components/isues",
+  "repository": "https://github.com/gui-marc/cva-components.git",
+  "author": "Guilherme Marcondes (https://xpto.com)"
+}
