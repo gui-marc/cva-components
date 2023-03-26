@@ -14,7 +14,7 @@ export const styled = <T>(
     React.RefObject<typeof type>,
     Props<T> & { as?: ComponentType } & {
       ref?: React.RefAttributes<typeof type>;
-    }
+    } & React.ComponentProps<typeof type>
   >((props, forwardedRef) => {
     const Type = props?.as ? props.as : type;
 
